@@ -1,0 +1,6 @@
+pickle-mixin
+tensorflow
+pandas
+random2
+numpy
+streamlit
