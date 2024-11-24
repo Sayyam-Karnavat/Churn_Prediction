@@ -3,3 +3,4 @@ pandas
 random2
 numpy
 streamlit
+scikit-learn
