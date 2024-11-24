@@ -60,6 +60,8 @@ prediction = model.predict(input_data_scaled)
 
 prediction_probability = np.where(prediction > 0.5 , 1 , 0)
 
+print("Churn probability :-", prediction_probability)
+
 
 if prediction_probability > 0.5 :
     st.write("The customer is likely to churn !!!")
